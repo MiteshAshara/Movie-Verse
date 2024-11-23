@@ -39,7 +39,7 @@ function Navbar({ onSearch }) {
   }, []);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm" ref={navbarRef}>
+    <nav className="navbar navbar-expand-lg sticky-top navbar-dark bg-dark shadow-sm" ref={navbarRef}>
       <div className="container">
         <Link className="navbar-brand fw-bold" to="/">🎬 MovieVerse</Link>
         <button 

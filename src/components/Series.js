@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import MovieCard from '../components/MovieCard';
 import moviesData from '../components/movies.json'; 
 
-function Hollywood({ searchTerm }) {
+function Series({ searchTerm }) {
     const [movies, setMovies] = useState([]);
 
     useEffect(() => {
@@ -32,4 +32,4 @@ function Hollywood({ searchTerm }) {
     );
 }
 
-export default Hollywood;
+export default Series;
